@@ -137,7 +137,7 @@ function setState(nextState) {
 	case I_CAN_START:
 		$('#start').attr('disabled', false);
 		$('#start').attr('onclick', 'start()');
-		$('#play').attr('onclick', '');
+//		$('#play').attr('onclick', '');
 		$('#stop').attr('disabled', true);
 		$('#stop').removeAttr('onclick');
 		break;
