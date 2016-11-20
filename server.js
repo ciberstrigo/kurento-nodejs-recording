@@ -26,7 +26,9 @@ var kurento = require('kurento-client');
 var fs    = require('fs');
 var https = require('https');
 
-var recorder_filename = 'file://'+__dirname+'/static/records/recorder_demo.webm';
+//var recorder_filename = 'file://'+__dirname+'/static/records/recorder_demo.webm';
+var recorder_file = 'file:///tmp/temp_video.webm';
+
 console.log(recorder_filename);
 var argv = minimist(process.argv.slice(2), {
     default: {
